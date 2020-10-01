@@ -1,6 +1,7 @@
 package org.mblagov;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Variables {
@@ -22,6 +23,7 @@ public class Variables {
 
         String[] array = new String[20];
         System.out.println(array);
+        System.out.println(Arrays.toString(array));
 
 
         List list = new ArrayList<>();
